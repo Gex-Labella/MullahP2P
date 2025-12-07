@@ -22,10 +22,9 @@ A modern, secure, and user-friendly platform for peer-to-peer cryptocurrency tra
 - [Tech Stack](#-tech-stack)
 - [Getting Started](#-getting-started)
 - [Usage](#-usage)
-- [Project Structure](#-project-structure)
 - [Smart Contract](#-smart-contract)
 - [Development](#-development)
-- [Contributing](#-contributing)
+
 
 ---
 
@@ -165,47 +164,6 @@ A modern, secure, and user-friendly platform for peer-to-peer cryptocurrency tra
 
 ---
 
-## 📁 Project Structure
-
-```
-mullah-p2p/
-├── public/              # Static assets
-├── src/
-│   ├── abis/           # Smart contract ABIs
-│   │   ├── P2PMullah.json
-│   │   └── ERC20.json
-│   ├── animations/     # Lottie animation files
-│   ├── components/     # React components
-│   │   ├── features/   # Feature-specific components
-│   │   ├── layout/     # Layout components
-│   │   ├── settings/   # Settings page components
-│   │   └── ui/         # Reusable UI components
-│   ├── contexts/       # React contexts
-│   │   └── StarknetProvider.tsx
-│   ├── hooks/          # Custom React hooks
-│   ├── pages/          # Page components
-│   │   ├── Dashboard.tsx
-│   │   ├── Login.tsx
-│   │   ├── NetworkStatus.tsx
-│   │   ├── P2PStatistics.tsx
-│   │   ├── Settings.tsx
-│   │   └── Signup.tsx
-│   ├── services/       # Service layer
-│   │   ├── ContractService.ts
-│   │   └── tokenService.ts
-│   ├── store/          # Redux store
-│   ├── utils/          # Utility functions
-│   ├── App.tsx         # Main app component
-│   └── main.tsx        # Entry point
-├── .env                # Environment variables
-├── package.json        # Dependencies
-├── tsconfig.json       # TypeScript config
-├── tailwind.config.js  # Tailwind CSS config
-└── vite.config.ts      # Vite config
-```
-
----
-
 ## 📜 Smart Contract
 
 ### P2PMullah Contract
@@ -279,19 +237,6 @@ npm run tw:init
 
 ### Environment Variables
 
-```env
-# Required
-VITE_P2P_CONTRACT_ADDRESS=   # P2P contract address
-VITE_MUL_TOKEN_ADDRESS=      # MUL token contract address
-
-# Optional
-VITE_NETWORK_NAME=           # Network name (default: Ethereum)
-VITE_CHAIN_ID=               # Chain ID (default: 1)
-VITE_RPC_URL=                # Custom RPC endpoint
-```
-
----
-
 ## 🤝 Contributing
 
 Contributions are welcome! Please follow these steps:
@@ -334,14 +279,6 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 - **OpenZeppelin** for secure smart contract libraries
 - **React Team** for the amazing framework
 - **Radix UI** for accessible component primitives
-
----
-
-## 📞 Contact & Support
-
-- **Issues**: [GitHub Issues](https://github.com/yourusername/mullah-p2p/issues)
-- **Discussions**: [GitHub Discussions](https://github.com/yourusername/mullah-p2p/discussions)
-- **Email**: support@mullahp2p.com
 
 ---
 
